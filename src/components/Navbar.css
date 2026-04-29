@@ -1,0 +1,148 @@
+/* Navbar Styles - Professional & Soothing */
+
+.navbar {
+  background: linear-gradient(135deg, #ffffff 0%, #f8fbfday 100%);
+  border-bottom: 1px solid #e1eaf5;
+  padding: 0;
+  box-shadow: 0 2px 12px rgba(58, 74, 92, 0.08);
+  position: sticky;
+  top: 0;
+  z-index: 100;
+}
+
+.navbar-content {
+  max-width: 1400px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 16px 40px;
+}
+
+.navbar-brand {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  font-size: 1.3rem;
+  font-weight: 700;
+  background: linear-gradient(135deg, #5eb3d6 0%, #4a90a4 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+  cursor: pointer;
+  transition: transform 0.2s;
+}
+
+.navbar-brand:hover {
+  transform: scale(1.02);
+}
+
+.logo-icon {
+  font-size: 1.8rem;
+  background: linear-gradient(135deg, #5eb3d6 0%, #4a90a4 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+}
+
+.logo-text {
+  letter-spacing: -0.3px;
+}
+
+.navbar-links {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+}
+
+.user-info {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  padding-right: 12px;
+  border-right: 1px solid #d9e8f5;
+}
+
+.user-email {
+  font-size: 0.9rem;
+  color: #3a4a5c;
+  font-weight: 500;
+}
+
+.navbar-btn {
+  padding: 9px 18px;
+  border-radius: 8px;
+  border: none;
+  font-weight: 600;
+  font-size: 0.9rem;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  white-space: nowrap;
+}
+
+.login-btn {
+  background: transparent;
+  color: #5eb3d6;
+  border: 1.5px solid #5eb3d6;
+}
+
+.login-btn:hover {
+  background: #5eb3d6;
+  color: white;
+  box-shadow: 0 4px 12px rgba(94, 179, 214, 0.3);
+}
+
+.signup-btn {
+  background: linear-gradient(135deg, #5eb3d6 0%, #4a90a4 100%);
+  color: white;
+  border: none;
+}
+
+.signup-btn:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 6px 16px rgba(94, 179, 214, 0.35);
+}
+
+.logout-btn {
+  background: linear-gradient(135deg, #a5d6a7 0%, #6db682 100%);
+  color: white;
+  border: none;
+}
+
+.logout-btn:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 6px 16px rgba(109, 182, 130, 0.35);
+}
+
+@media (max-width: 768px) {
+  .navbar-content {
+    padding: 12px 15px;
+  }
+
+  .navbar-brand {
+    font-size: 1.2rem;
+    gap: 8px;
+  }
+
+  .logo-icon {
+    font-size: 1.4rem;
+  }
+
+  .navbar-links {
+    gap: 10px;
+  }
+
+  .navbar-btn {
+    padding: 8px 16px;
+    font-size: 0.9rem;
+  }
+
+  .user-email {
+    display: none;
+  }
+
+  .user-info {
+    padding-right: 0;
+    border-right: none;
+  }
+}

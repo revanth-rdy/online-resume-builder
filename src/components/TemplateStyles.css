@@ -1,0 +1,707 @@
+/* ============================================
+   TEMPLATE STYLES - All 5 Distinct Designs
+   ============================================ */
+
+/* Base Resume Sheet */
+.resume-sheet {
+  width: 8.5in;
+  height: 11in;
+  background: white;
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.15);
+  overflow: hidden;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  line-height: 1.5;
+}
+
+/* ============================================
+   MODERN TEMPLATE (2-Column with Sidebar)
+   ============================================ */
+
+.modern-template {
+  padding: 0;
+}
+
+.modern-container {
+  display: flex;
+  height: 100%;
+}
+
+.modern-sidebar {
+  width: 30%;
+  background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+  color: white;
+  padding: 0.4in;
+  overflow-y: auto;
+}
+
+.modern-name {
+  font-size: 1.4rem;
+  font-weight: 700;
+  margin-bottom: 3px;
+  letter-spacing: -0.5px;
+}
+
+.modern-contact {
+  font-size: 0.75rem;
+  line-height: 1.4;
+  opacity: 0.95;
+  margin-bottom: 12px;
+}
+
+.modern-contact div {
+  word-break: break-word;
+}
+
+.modern-main {
+  width: 70%;
+  padding: 0.4in;
+  overflow-y: auto;
+}
+
+.modern-section {
+  margin-bottom: 10px;
+}
+
+.modern-section-title {
+  font-size: 0.75rem;
+  font-weight: 700;
+  text-transform: uppercase;
+  margin-bottom: 6px;
+  letter-spacing: 1px;
+  color: #667eea;
+  border-bottom: 1px solid #667eea;
+  padding-bottom: 4px;
+}
+
+.modern-section-title-main {
+  font-size: 0.85rem;
+  font-weight: 700;
+  text-transform: uppercase;
+  margin-bottom: 8px;
+  letter-spacing: 0.5px;
+  color: #2c3e50;
+  border-bottom: 2px solid #667eea;
+  padding-bottom: 4px;
+}
+
+.modern-skills {
+  display: flex;
+  flex-direction: column;
+  gap: 3px;
+}
+
+.modern-skill-item {
+  font-size: 0.75rem;
+  padding: 3px 0;
+  opacity: 0.9;
+}
+
+.modern-entry {
+  margin-bottom: 8px;
+}
+
+.modern-entry-header {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 1px;
+}
+
+.modern-entry-title {
+  font-weight: 700;
+  font-size: 0.85rem;
+  color: #667eea;
+}
+
+.modern-entry-date {
+  font-size: 0.75rem;
+  color: #999;
+  white-space: nowrap;
+}
+
+.modern-entry-company {
+  font-weight: 600;
+  font-size: 0.8rem;
+  color: #2c3e50;
+}
+
+.modern-text {
+  font-size: 0.8rem;
+  margin: 3px 0 0 0;
+  color: #555;
+  line-height: 1.35;
+}
+
+/* ============================================
+   EXECUTIVE TEMPLATE (Classic 1-Column)
+   ============================================ */
+
+.executive-template {
+  padding: 0.5in;
+  background: white;
+}
+
+.executive-header {
+  border-bottom: 3px solid #2c3e50;
+  padding-bottom: 10px;
+  margin-bottom: 12px;
+}
+
+.executive-name {
+  font-size: 2rem;
+  font-weight: 700;
+  color: #2c3e50;
+  margin-bottom: 3px;
+}
+
+.executive-contact {
+  font-size: 0.85rem;
+  color: #555;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 5px;
+}
+
+.executive-contact .bullet {
+  margin: 0 3px;
+}
+
+.executive-section {
+  margin-bottom: 10px;
+}
+
+.executive-section-title {
+  font-size: 0.9rem;
+  font-weight: 700;
+  text-transform: uppercase;
+  color: #2c3e50;
+  margin-bottom: 6px;
+  border-bottom: 2px solid #2c3e50;
+  padding-bottom: 4px;
+  letter-spacing: 0.5px;
+}
+
+.executive-entry {
+  margin-bottom: 7px;
+}
+
+.executive-entry-header {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 2px;
+}
+
+.executive-position {
+  font-weight: 700;
+  font-size: 0.85rem;
+  color: #2c3e50;
+}
+
+.executive-date {
+  font-size: 0.8rem;
+  color: #999;
+  white-space: nowrap;
+}
+
+.executive-company {
+  font-weight: 600;
+  font-size: 0.8rem;
+  color: #555;
+}
+
+.executive-text {
+  font-size: 0.8rem;
+  margin: 0;
+  color: #555;
+  line-height: 1.4;
+}
+
+.executive-skills {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 6px;
+  margin-top: 4px;
+}
+
+.executive-skill {
+  display: inline-block;
+  padding: 4px 8px;
+  background: #ecf0f1;
+  color: #2c3e50;
+  font-size: 0.8rem;
+  border-radius: 3px;
+  font-weight: 500;
+}
+
+/* ============================================
+   MINIMAL TEMPLATE (Clean & Spacious)
+   ============================================ */
+
+.minimal-template {
+  padding: 0.6in;
+  background: #fafafa;
+}
+
+.minimal-header {
+  margin-bottom: 16px;
+  padding-bottom: 12px;
+  border-bottom: 1px solid #ddd;
+}
+
+.minimal-name {
+  font-size: 1.6rem;
+  font-weight: 700;
+  color: #1a1a1a;
+  margin-bottom: 4px;
+  letter-spacing: -0.3px;
+}
+
+.minimal-contact {
+  font-size: 0.8rem;
+  color: #666;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 6px;
+}
+
+.minimal-title {
+  font-size: 0.95rem;
+  font-weight: 700;
+  text-transform: uppercase;
+  color: #1a1a1a;
+  margin: 0 0 10px 0;
+  letter-spacing: 1px;
+  font-family: Georgia, serif;
+}
+
+.minimal-section {
+  margin-bottom: 14px;
+  background: white;
+  padding: 10px;
+  border-radius: 3px;
+}
+
+.minimal-entry {
+  margin-bottom: 10px;
+  padding-bottom: 8px;
+  border-bottom: 1px solid #f0f0f0;
+}
+
+.minimal-entry:last-child {
+  border-bottom: none;
+  margin-bottom: 0;
+  padding-bottom: 0;
+}
+
+.minimal-row {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 2px;
+}
+
+.minimal-job-title {
+  font-weight: 600;
+  font-size: 0.85rem;
+  color: #1a1a1a;
+}
+
+.minimal-job-date {
+  font-size: 0.8rem;
+  color: #999;
+  white-space: nowrap;
+}
+
+.minimal-company {
+  font-weight: 500;
+  font-size: 0.8rem;
+  color: #555;
+}
+
+.minimal-text {
+  font-size: 0.8rem;
+  margin: 4px 0 0 0;
+  color: #666;
+  line-height: 1.4;
+}
+
+.minimal-skills {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 8px;
+}
+
+.minimal-skill {
+  font-size: 0.8rem;
+  padding: 6px 0;
+  border-bottom: 1px solid #ddd;
+  color: #555;
+}
+
+/* ============================================
+   CREATIVE TEMPLATE (Modern Timeline)
+   ============================================ */
+
+.creative-template {
+  padding: 0.5in;
+  background: white;
+}
+
+.creative-accent-bar {
+  width: 100%;
+  height: 4px;
+  background: linear-gradient(90deg, #e74c3c 0%, #e67e22 50%, #f39c12 100%);
+  margin-bottom: 16px;
+}
+
+.creative-header {
+  margin-bottom: 12px;
+}
+
+.creative-name {
+  font-size: 1.8rem;
+  font-weight: 700;
+  color: #2c3e50;
+  margin: 0;
+}
+
+.creative-subtitle {
+  font-size: 0.85rem;
+  color: #e74c3c;
+  font-weight: 600;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+}
+
+.creative-contact {
+  font-size: 0.8rem;
+  color: #777;
+  margin-top: 4px;
+}
+
+.creative-section {
+  margin-bottom: 10px;
+}
+
+.creative-title {
+  font-size: 0.9rem;
+  font-weight: 700;
+  text-transform: uppercase;
+  color: #e74c3c;
+  margin: 0 0 8px 0;
+  letter-spacing: 0.5px;
+}
+
+.creative-timeline {
+  position: relative;
+  padding-left: 12px;
+}
+
+.creative-timeline::before {
+  content: '';
+  position: absolute;
+  left: 0;
+  top: 0;
+  bottom: 0;
+  width: 2px;
+  background: #e74c3c;
+}
+
+.creative-timeline-item {
+  position: relative;
+  margin-bottom: 8px;
+  padding-bottom: 8px;
+}
+
+.creative-timeline-dot {
+  position: absolute;
+  left: -11px;
+  top: 3px;
+  width: 8px;
+  height: 8px;
+  background: #e74c3c;
+  border-radius: 50%;
+  border: 2px solid white;
+}
+
+.creative-timeline-content {
+  margin-left: 8px;
+}
+
+.creative-timeline-header {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 1px;
+}
+
+.creative-timeline-role {
+  font-weight: 700;
+  font-size: 0.85rem;
+  color: #2c3e50;
+}
+
+.creative-timeline-date {
+  font-size: 0.75rem;
+  color: #999;
+  white-space: nowrap;
+}
+
+.creative-timeline-company {
+  font-weight: 600;
+  font-size: 0.8rem;
+  color: #555;
+}
+
+.creative-edu {
+  margin-bottom: 8px;
+  padding-bottom: 6px;
+}
+
+.creative-edu-header {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 1px;
+}
+
+.creative-edu-degree {
+  font-weight: 700;
+  font-size: 0.85rem;
+  color: #2c3e50;
+}
+
+.creative-edu-date {
+  font-size: 0.75rem;
+  color: #999;
+}
+
+.creative-edu-school {
+  font-weight: 600;
+  font-size: 0.8rem;
+  color: #555;
+}
+
+.creative-text {
+  font-size: 0.8rem;
+  margin: 3px 0 0 0;
+  color: #666;
+  line-height: 1.35;
+}
+
+.creative-tags {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 6px;
+  margin-top: 4px;
+}
+
+.creative-tag {
+  display: inline-block;
+  padding: 4px 8px;
+  background: #fff5e6;
+  color: #e74c3c;
+  font-size: 0.8rem;
+  border-radius: 20px;
+  font-weight: 500;
+  border: 1px solid #f0d5b8;
+}
+
+/* ============================================
+   PROFESSIONAL TEMPLATE (Corporate)
+   ============================================ */
+
+.professional-template {
+  padding: 0;
+  display: flex;
+  flex-direction: column;
+}
+
+.professional-banner {
+  background: linear-gradient(90deg, #3498db 0%, #2980b9 100%);
+  height: 30px;
+  width: 100%;
+}
+
+.professional-header {
+  padding: 0.3in 0.5in;
+  background: #ecf0f1;
+  border-bottom: 1px solid #bdc3c7;
+}
+
+.professional-name-box {
+  margin-bottom: 5px;
+}
+
+.professional-name {
+  font-size: 1.7rem;
+  font-weight: 700;
+  color: #2c3e50;
+  margin: 0;
+  letter-spacing: -0.3px;
+}
+
+.professional-contact-box {
+  padding: 0;
+}
+
+.professional-contact {
+  display: flex;
+  gap: 15px;
+  flex-wrap: wrap;
+  font-size: 0.8rem;
+  color: #555;
+}
+
+.contact-item {
+  display: inline;
+  white-space: nowrap;
+}
+
+.professional-section {
+  padding: 0 0.5in;
+  margin-bottom: 8px;
+  flex-grow: 1;
+}
+
+.professional-section:first-of-type {
+  padding-top: 0.3in;
+}
+
+.professional-section-header {
+  background: #3498db;
+  margin: 0 -0.5in 8px -0.5in;
+  padding: 4px 0.5in;
+}
+
+.professional-section-title {
+  font-size: 0.85rem;
+  font-weight: 700;
+  text-transform: uppercase;
+  color: white;
+  margin: 0;
+  letter-spacing: 0.5px;
+}
+
+.professional-entry {
+  margin-bottom: 7px;
+  padding-bottom: 6px;
+  border-bottom: 1px solid #ecf0f1;
+}
+
+.professional-entry:last-child {
+  border-bottom: none;
+  margin-bottom: 0;
+  padding-bottom: 0;
+}
+
+.professional-entry-header {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 1px;
+}
+
+.professional-role {
+  font-weight: 700;
+  font-size: 0.85rem;
+  color: #2c3e50;
+}
+
+.professional-interval {
+  font-size: 0.8rem;
+  color: #999;
+  white-space: nowrap;
+}
+
+.professional-employer {
+  font-weight: 600;
+  font-size: 0.8rem;
+  color: #3498db;
+}
+
+.professional-text {
+  font-size: 0.8rem;
+  margin: 3px 0 0 0;
+  color: #666;
+  line-height: 1.35;
+}
+
+.professional-skills {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 6px;
+  margin-top: 4px;
+}
+
+.professional-skill-box {
+  display: inline-block;
+}
+
+.professional-skill {
+  display: inline-block;
+  padding: 4px 10px;
+  background: #ecf0f1;
+  color: #3498db;
+  font-size: 0.8rem;
+  border-radius: 3px;
+  font-weight: 500;
+  border-left: 3px solid #3498db;
+}
+
+/* ============================================
+   RESPONSIVE
+   ============================================ */
+
+@media (max-width: 1024px) {
+  .resume-sheet {
+    width: 100%;
+    height: auto;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+  }
+
+  .modern-container {
+    flex-direction: column;
+  }
+
+  .modern-sidebar {
+    width: 100%;
+    padding: 0.3in;
+  }
+
+  .modern-main {
+    width: 100%;
+    padding: 0.3in;
+  }
+}
+
+/* ============================================
+   PRINT STYLES
+   ============================================ */
+
+@media print {
+  body {
+    margin: 0;
+    padding: 0;
+    background: white;
+  }
+
+  .resume-sheet {
+    width: 100%;
+    height: auto;
+    max-width: 100%;
+    box-shadow: none;
+    page-break-after: avoid;
+  }
+
+  .modern-section,
+  .executive-section,
+  .minimal-section,
+  .creative-section,
+  .professional-section {
+    page-break-inside: avoid;
+  }
+
+  .modern-entry,
+  .executive-entry,
+  .minimal-entry,
+  .creative-timeline-item,
+  .professional-entry {
+    page-break-inside: avoid;
+  }
+}
